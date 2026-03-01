@@ -1,0 +1,21 @@
+#root {
+
+  flex: 1;
+  margin: 0 auto;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 0;
+}
+
+.spaceGrow {
+  flex: 1;
+}
+
+.spaceSmall{
+  width: 1em;
+  height: 1em;
+}
