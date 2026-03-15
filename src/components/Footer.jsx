@@ -6,15 +6,28 @@ function Footer() {
       <div className={styles.container}>
         <form onSubmit={e => e.preventDefault()}>
           <img src={logo} alt='logo' className={styles.logo} />
+
+          <div className={styles.linkContainer}>
+            <a href='' >TikTok</a>
+            <a href='' >Youtube</a>
+            <a href='' >Discord</a>
+            <a href='' >Contact</a>
+          </div>
+
           <div className={'spaceGrow'}/>
-          Join the mailing list for info on our games.
+
+          <div style={{flexDirection: 'column'}}>
+            <div>GET IN THE TOASTER!!</div>
+            <div>Get notified when the toast pops.</div>
+          </div>
+
           <div className={'spaceSmall'}/>
           <input type='email' placeholder='Email' />
           <div className={'spaceSmall'}/>
-          <button type='submit'>Submit</button>
+          <button type='submit'>Subscribe</button>
         </form>
         <div className={styles.copyright}>
-          &copy; Bread Games
+          &copy; Toast Games
         </div>
       </div>
   );

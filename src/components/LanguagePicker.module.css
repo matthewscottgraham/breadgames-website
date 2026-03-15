@@ -1,0 +1,20 @@
+.languagePicker {
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 0.6rem;
+    padding: 0.5rem;
+}
+
+.languagePicker button{
+
+}
+
+.languagePicker button:hover {
+
+}
+
+.activeLanguageButton {
+    background-color: lightgray;
+    color: black;
+}
